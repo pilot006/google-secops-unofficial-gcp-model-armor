@@ -2,7 +2,7 @@
   "IsAvailableForCommunity": false,
   "Identifier": "Unofficial GCP Model Armor",
   "ShouldInstalledInSystem": false,
-  "Version": 5.0,
+  "Version": 6.0,
   "DisplayName": "Unofficial GCP Model Armor",
   "Description": "",
   "ImageBase64": null,
@@ -19,8 +19,8 @@
       "IsMandatory": true,
       "Value": null,
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741011038152,
-      "ModificationTimeUnixTimeInMs": 1741011038152
+      "CreationTimeUnixTimeInMs": 1741178086389,
+      "ModificationTimeUnixTimeInMs": 1741178086389
     },
     {
       "IntegrationIdentifier": "Unofficial GCP Model Armor",
@@ -31,8 +31,20 @@
       "IsMandatory": true,
       "Value": "LLM_Model_Armor",
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741011038152,
-      "ModificationTimeUnixTimeInMs": 1741011038152
+      "CreationTimeUnixTimeInMs": 1741178086389,
+      "ModificationTimeUnixTimeInMs": 1741178086389
+    },
+    {
+      "IntegrationIdentifier": "Unofficial GCP Model Armor",
+      "PropertyName": "Region",
+      "PropertyDescription": "https://cloud.google.com/security-command-center/docs/model-armor-overview#regional_endpoints",
+      "PropertyDisplayName": "Region",
+      "PropertyType": 2,
+      "IsMandatory": true,
+      "Value": "us-east4",
+      "Id": 0,
+      "CreationTimeUnixTimeInMs": 1741178086389,
+      "ModificationTimeUnixTimeInMs": 1741178086389
     }
   ],
   "IntegrationSupportedActions": [
@@ -40,15 +52,15 @@
       "Name": "Sanitize Model Reponse",
       "Description": "",
       "Id": 3730,
-      "CreationTimeUnixTimeInMs": 1741015977571,
-      "ModificationTimeUnixTimeInMs": 1741015977573
+      "CreationTimeUnixTimeInMs": 1741178163441,
+      "ModificationTimeUnixTimeInMs": 1741178163448
     },
     {
       "Name": "Sanitize Prompt",
       "Description": "",
       "Id": 3729,
-      "CreationTimeUnixTimeInMs": 1741006402066,
-      "ModificationTimeUnixTimeInMs": 1741006402068
+      "CreationTimeUnixTimeInMs": 1741178192558,
+      "ModificationTimeUnixTimeInMs": 1741178192560
     }
   ],
   "Categories": [],
@@ -63,6 +75,6 @@
   "MinimumSystemVersion": 0.0,
   "ProductionIntegrationIdentifier": null,
   "Id": 0,
-  "CreationTimeUnixTimeInMs": 1741011038152,
-  "ModificationTimeUnixTimeInMs": 1741011038152
+  "CreationTimeUnixTimeInMs": 1741178086389,
+  "ModificationTimeUnixTimeInMs": 1741178086389
 }
