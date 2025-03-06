@@ -14,6 +14,7 @@ def main():
     sa_json = json.loads(sa_json)
     template_id = siemplify.extract_configuration_param('Integration',"Template ID")
     region = siemplify.extract_configuration_param('Integration',"Region")
+    project_id = siemplify.extract_configuration_param('Integration',"Project ID")
     prompt = siemplify.extract_action_param("Prompt", print_value=True)
 
     credentials = service_account.Credentials.from_service_account_info(
@@ -30,7 +31,7 @@ def main():
             "text": prompt 
         } 
     }
-    URL = f"https://modelarmor.{region}.rep.googleapis.com/v1/projects/gen-ai-apps/locations/us-east4/templates/{template_id}:sanitizeUserPrompt"
+    URL = f"https://modelarmor.{region}.rep.googleapis.com/v1/projects/{project_id}/locations/{region}/templates/{template_id}:sanitizeUserPrompt"
     req = requests.post(URL, headers=hd, json=body)
     siemplify.LOGGER.info(req.text)
 

@@ -2,7 +2,7 @@
   "IsAvailableForCommunity": false,
   "Identifier": "Unofficial GCP Model Armor",
   "ShouldInstalledInSystem": false,
-  "Version": 6.0,
+  "Version": 7.0,
   "DisplayName": "Unofficial GCP Model Armor",
   "Description": "",
   "ImageBase64": null,
@@ -19,8 +19,8 @@
       "IsMandatory": true,
       "Value": null,
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741178086389,
-      "ModificationTimeUnixTimeInMs": 1741178086389
+      "CreationTimeUnixTimeInMs": 1741200369611,
+      "ModificationTimeUnixTimeInMs": 1741200369611
     },
     {
       "IntegrationIdentifier": "Unofficial GCP Model Armor",
@@ -31,8 +31,8 @@
       "IsMandatory": true,
       "Value": "LLM_Model_Armor",
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741178086389,
-      "ModificationTimeUnixTimeInMs": 1741178086389
+      "CreationTimeUnixTimeInMs": 1741200369611,
+      "ModificationTimeUnixTimeInMs": 1741200369611
     },
     {
       "IntegrationIdentifier": "Unofficial GCP Model Armor",
@@ -43,8 +43,20 @@
       "IsMandatory": true,
       "Value": "us-east4",
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741178086389,
-      "ModificationTimeUnixTimeInMs": 1741178086389
+      "CreationTimeUnixTimeInMs": 1741200369611,
+      "ModificationTimeUnixTimeInMs": 1741200369611
+    },
+    {
+      "IntegrationIdentifier": "Unofficial GCP Model Armor",
+      "PropertyName": "Project ID",
+      "PropertyDescription": "ID/name of the project with Model Armor enabled",
+      "PropertyDisplayName": "Project ID",
+      "PropertyType": 2,
+      "IsMandatory": true,
+      "Value": "my-project",
+      "Id": 0,
+      "CreationTimeUnixTimeInMs": 1741200369611,
+      "ModificationTimeUnixTimeInMs": 1741200369611
     }
   ],
   "IntegrationSupportedActions": [
@@ -52,15 +64,15 @@
       "Name": "Sanitize Model Reponse",
       "Description": "",
       "Id": 3730,
-      "CreationTimeUnixTimeInMs": 1741178163441,
-      "ModificationTimeUnixTimeInMs": 1741178163448
+      "CreationTimeUnixTimeInMs": 1741200424416,
+      "ModificationTimeUnixTimeInMs": 1741200424423
     },
     {
       "Name": "Sanitize Prompt",
       "Description": "",
       "Id": 3729,
-      "CreationTimeUnixTimeInMs": 1741178192558,
-      "ModificationTimeUnixTimeInMs": 1741178192560
+      "CreationTimeUnixTimeInMs": 1741200462475,
+      "ModificationTimeUnixTimeInMs": 1741200462477
     }
   ],
   "Categories": [],
@@ -75,6 +87,6 @@
   "MinimumSystemVersion": 0.0,
   "ProductionIntegrationIdentifier": null,
   "Id": 0,
-  "CreationTimeUnixTimeInMs": 1741178086389,
-  "ModificationTimeUnixTimeInMs": 1741178086389
+  "CreationTimeUnixTimeInMs": 1741200369611,
+  "ModificationTimeUnixTimeInMs": 1741200369611
 }
