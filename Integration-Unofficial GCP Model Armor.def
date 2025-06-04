@@ -61,18 +61,25 @@
   ],
   "IntegrationSupportedActions": [
     {
-      "Name": "Sanitize Model Reponse",
+      "Name": "Ping",
       "Description": "",
-      "Id": 3730,
-      "CreationTimeUnixTimeInMs": 1741200424416,
-      "ModificationTimeUnixTimeInMs": 1741200424423
+      "Id": 4447,
+      "CreationTimeUnixTimeInMs": 1749044083606,
+      "ModificationTimeUnixTimeInMs": 1749044083608
     },
     {
       "Name": "Sanitize Prompt",
       "Description": "",
       "Id": 3729,
       "CreationTimeUnixTimeInMs": 1741200462475,
-      "ModificationTimeUnixTimeInMs": 1741200462477
+      "ModificationTimeUnixTimeInMs": 1748434942974
+    },
+    {
+      "Name": "Sanitize Model Reponse",
+      "Description": "",
+      "Id": 3730,
+      "CreationTimeUnixTimeInMs": 1741200424416,
+      "ModificationTimeUnixTimeInMs": 1748434942974
     }
   ],
   "Categories": [],
