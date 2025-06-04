@@ -7,7 +7,7 @@ With the [release of Model Armor on Google Cloud](https://cloud.google.com/secur
 
 ## Pre-requisities
 - Google Cloud Project - A project, with Model Armor enabled, must be created.
-- Service Account JSON Key - To interact with Model Amror, a service account credential must be created.
+- Service Account JSON Key - To interact with Model Armor, a service account credential must be created.
 
 ## Installation
 1. Navigate to Releases in this repo and download the .zip package.
