@@ -29,7 +29,7 @@ def main():
     req = requests.get(URL, headers=hd)
     siemplify.LOGGER.info(req.text)
 
-    if 'create_time' in req.text:
+    if template_id in req.text:
         status = EXECUTION_STATE_COMPLETED
         output_message = "OK"
         result_value = True 
