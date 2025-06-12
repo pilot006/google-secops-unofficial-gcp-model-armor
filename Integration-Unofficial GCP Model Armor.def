@@ -2,7 +2,7 @@
   "IsAvailableForCommunity": false,
   "Identifier": "Unofficial GCP Model Armor",
   "ShouldInstalledInSystem": false,
-  "Version": 7.0,
+  "Version": 9.0,
   "DisplayName": "Unofficial GCP Model Armor",
   "Description": "",
   "ImageBase64": null,
@@ -16,11 +16,11 @@
       "PropertyDescription": "JSON for the service account",
       "PropertyDisplayName": "Service Account JSON",
       "PropertyType": 3,
-      "IsMandatory": true,
+      "IsMandatory": false,
       "Value": null,
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741200369611,
-      "ModificationTimeUnixTimeInMs": 1741200369611
+      "CreationTimeUnixTimeInMs": 1749682239604,
+      "ModificationTimeUnixTimeInMs": 1749682239604
     },
     {
       "IntegrationIdentifier": "Unofficial GCP Model Armor",
@@ -31,8 +31,8 @@
       "IsMandatory": true,
       "Value": "LLM_Model_Armor",
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741200369611,
-      "ModificationTimeUnixTimeInMs": 1741200369611
+      "CreationTimeUnixTimeInMs": 1749682239604,
+      "ModificationTimeUnixTimeInMs": 1749682239604
     },
     {
       "IntegrationIdentifier": "Unofficial GCP Model Armor",
@@ -43,8 +43,8 @@
       "IsMandatory": true,
       "Value": "us-east4",
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741200369611,
-      "ModificationTimeUnixTimeInMs": 1741200369611
+      "CreationTimeUnixTimeInMs": 1749682239604,
+      "ModificationTimeUnixTimeInMs": 1749682239604
     },
     {
       "IntegrationIdentifier": "Unofficial GCP Model Armor",
@@ -55,8 +55,20 @@
       "IsMandatory": true,
       "Value": "my-project",
       "Id": 0,
-      "CreationTimeUnixTimeInMs": 1741200369611,
-      "ModificationTimeUnixTimeInMs": 1741200369611
+      "CreationTimeUnixTimeInMs": 1749682239604,
+      "ModificationTimeUnixTimeInMs": 1749682239604
+    },
+    {
+      "IntegrationIdentifier": "Unofficial GCP Model Armor",
+      "PropertyName": "Workload Identity Email",
+      "PropertyDescription": "Account to impersonate for API calls",
+      "PropertyDisplayName": "Workload Identity Email",
+      "PropertyType": 2,
+      "IsMandatory": false,
+      "Value": "",
+      "Id": 0,
+      "CreationTimeUnixTimeInMs": 1749682239604,
+      "ModificationTimeUnixTimeInMs": 1749682239604
     }
   ],
   "IntegrationSupportedActions": [
@@ -64,22 +76,22 @@
       "Name": "Ping",
       "Description": "",
       "Id": 4447,
-      "CreationTimeUnixTimeInMs": 1749471006254,
-      "ModificationTimeUnixTimeInMs": 1749471006257
+      "CreationTimeUnixTimeInMs": 1749682602611,
+      "ModificationTimeUnixTimeInMs": 1749682602613
     },
     {
       "Name": "Sanitize Prompt",
       "Description": "",
       "Id": 3729,
-      "CreationTimeUnixTimeInMs": 1741200462475,
-      "ModificationTimeUnixTimeInMs": 1748434942974
+      "CreationTimeUnixTimeInMs": 1749682709696,
+      "ModificationTimeUnixTimeInMs": 1749682709700
     },
     {
       "Name": "Sanitize Model Reponse",
       "Description": "",
       "Id": 3730,
-      "CreationTimeUnixTimeInMs": 1741200424416,
-      "ModificationTimeUnixTimeInMs": 1748434942974
+      "CreationTimeUnixTimeInMs": 1749682665432,
+      "ModificationTimeUnixTimeInMs": 1749682665435
     }
   ],
   "Categories": [],
@@ -94,6 +106,6 @@
   "MinimumSystemVersion": 0.0,
   "ProductionIntegrationIdentifier": null,
   "Id": 0,
-  "CreationTimeUnixTimeInMs": 1741200369611,
-  "ModificationTimeUnixTimeInMs": 1741200369611
+  "CreationTimeUnixTimeInMs": 1749682239604,
+  "ModificationTimeUnixTimeInMs": 1749682239604
 }
