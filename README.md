@@ -7,7 +7,11 @@ With the [release of Model Armor on Google Cloud](https://cloud.google.com/secur
 
 ## Pre-requisities
 - Google Cloud Project - A project, with Model Armor enabled, must be created.
-- Service Account JSON Key - To interact with Model Armor, a service account credential must be created.
+
+## Authentication
+This integration supports both service account JSON and workload identity e-mail authenication. Upon creating a service account either:
+- Create serivce account JSON and provide in integration configuration
+- Grant SOAR workload identity e-mail right to impersonate your service account. Details here: https://www.googlecloudcommunity.com/gc/SecOps-SOAR/How-to-authenticate-to-Google-Cloud-integrations-using-Workload/m-p/864858
 
 ## Installation
 1. Navigate to Releases in this repo and download the .zip package.
